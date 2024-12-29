@@ -1,0 +1,55 @@
+# Ignore the IntelliJ IDEA project files
+.idea/
+
+# Ignore the Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore build output
+/target/
+/build/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore local configuration files (such as application.properties or application.yml)
+# These files can contain sensitive information like credentials, so it's important not to commit them.
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Ignore IDE specific files
+*.iml
+*.ipr
+*.iws
+
+# Ignore the Spring Boot Maven plugin output (you can also exclude other plugin outputs)
+spring-boot-devtools.jar
+
+# Ignore the node_modules directory if using frontend assets with Node.js
+node_modules/
+
+# Ignore Gradle files (for Gradle-based projects)
+.gradle/
+build/
+
+# Ignore JAR and WAR files
+*.jar
+*.war
+
+# Ignore AWS credentials, as Spring Cloud projects often interact with AWS services
+.aws/
+*.json
+*.pem
+*.key
+
+# Ignore local environment variable files for docker or other environments
+.env
+
+# Ignore logs
+logs/
+
+# Ignore any other local files (such as database files, temporary caches, etc.)
+*.h2.db
